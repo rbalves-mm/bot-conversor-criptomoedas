@@ -1,0 +1,22 @@
+[
+    {
+        "codigo" : "BTC",
+        "descricao": "Bitcoin",
+        "unidades" : 0.005231
+    },
+    {
+        "codigo" : "ETH",
+        "descricao": "Ethereum",
+        "unidades" : 0.0250012
+    },
+    {
+        "codigo" : "BCH",
+        "descricao": "Bitcoin Cash",
+        "unidades" : 0.0523545
+    },
+    {
+        "codigo" : "LINK",
+        "descricao": "Chainlink",
+        "unidades" : 1.0666332
+    }
+]
