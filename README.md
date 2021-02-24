@@ -15,7 +15,7 @@ Este projeto consiste em um robô desenvolvido em Python que converte unidades d
 ## Instalando e executando
 
 1. Clonar o projeto: **git clone https://github.com/rbalves-mm/bot-conversor-criptomoedas**
-2. Navegue até a pasta bot-conversor: **cd bot-conversor-criptomoedas**
+2. Navegue até a pasta: **cd bot-conversor-criptomoedas**
 3. Criar o arquivo no formato JSON com a sua lista de criptomoedas, conforme o modelo apresentado no arquivo 'moedas-exemplo.json'
 4. Criar bot no Telegram usando o [BotFather](https://core.telegram.org/bots)
 5. Criar o arquivo 'token.txt' e setar o token do bot criado
