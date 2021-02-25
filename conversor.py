@@ -67,7 +67,12 @@ def obterMensagemRendimentos():
 
 def obterChatId():
     bot = iniciarBot()
-    primeiro, *resto = bot.getUpdates()
+    mensagens = bot.getUpdates()
+    
+    if len(mensagens) == 0:
+        raise Exception("Nenhuma conversa encontrada")
+
+    primeiro, *resto = mensagens
     chat_id = primeiro['message']['chat']['id']
     return chat_id
 
